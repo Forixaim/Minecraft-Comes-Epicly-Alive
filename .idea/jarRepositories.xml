@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Mojang Meta" />
+      <option name="name" value="Mojang Meta" />
+      <option name="url" value="https://maven.neoforged.net/mojang-meta/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Mojang Minecraft Libraries" />
+      <option name="name" value="Mojang Minecraft Libraries" />
+      <option name="url" value="https://libraries.minecraft.net/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenRepo" />
+      <option name="name" value="MavenRepo" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Modrinth" />
+      <option name="name" value="Modrinth" />
+      <option name="url" value="https://api.modrinth.com/maven" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="CurseMaven" />
+      <option name="name" value="CurseMaven" />
+      <option name="url" value="https://cursemaven.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Fuzs Mod Resources (Forge Config API)" />
+      <option name="name" value="Fuzs Mod Resources (Forge Config API)" />
+      <option name="url" value="https://raw.githubusercontent.com/Fuzss/modresources/main/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Jared" />
+      <option name="name" value="Jared" />
+      <option name="url" value="https://maven.blamejared.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Architectury" />
+      <option name="name" value="Architectury" />
+      <option name="url" value="https://maven.architectury.dev" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Latvian" />
+      <option name="name" value="Latvian" />
+      <option name="url" value="https://maven.latvian.dev/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="IsXander" />
+      <option name="name" value="IsXander" />
+      <option name="url" value="https://maven.isxander.dev/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="AzureDoom Mods" />
+      <option name="name" value="AzureDoom Mods" />
+      <option name="url" value="https://maven.azuredoom.com/mods" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="GeckoLib" />
+      <option name="name" value="GeckoLib" />
+      <option name="url" value="https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Illusive Soulworks (Curios API)" />
+      <option name="name" value="Illusive Soulworks (Curios API)" />
+      <option name="url" value="https://maven.theillusivec4.top/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="playerAnimator" />
+      <option name="name" value="playerAnimator" />
+      <option name="url" value="https://maven.kosmx.dev" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="NeoForged Releases" />
+      <option name="name" value="NeoForged Releases" />
+      <option name="url" value="https://maven.neoforged.net/releases/" />
+    </remote-repository>
+  </component>
+</project>

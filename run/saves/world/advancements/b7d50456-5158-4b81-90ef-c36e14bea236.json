@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-06-09 13:54:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2026-06-09 13:54:59 -0700"
+    },
+    "done": false
+  },
+  "parcool:grant_parcool_guide": {
+    "criteria": {
+      "tick": "2026-06-09 13:54:58 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

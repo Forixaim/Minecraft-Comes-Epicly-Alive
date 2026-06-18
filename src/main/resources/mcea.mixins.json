@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.forixaim.mcea.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExtendedMeleeAttackTaskMixin",
+    "MixinBowTask",
+    "MixinGreetPlayerTask",
+    "MixinLivingEntityPatch",
+    "MixinVillagerMCA",
+    "MixinVillagerTasks"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

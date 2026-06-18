@@ -1,0 +1,407 @@
+[18Jun2026 12:40:39.011] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.220, --assetIndex, 17, --assetsDir, C:\\Users\\thebe\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.220, --fml.neoFormVersion, 20240808.144430, --accessToken, ❄❄❄❄❄❄❄❄, --uuid, 42479ed5a8f04967bfb17500577896a6, --username, Forixaim, --userType, msa]
+[18Jun2026 12:40:39.015] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Eclipse Adoptium OpenJDK 64-Bit Server VM 21.0.11+10-LTS
+[18Jun2026 12:40:39.018] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.11 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[18Jun2026 12:40:39.172] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[18Jun2026 12:40:39.255] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[18Jun2026 12:40:39.598] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[18Jun2026 12:40:39.698] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/thebe/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[18Jun2026 12:40:39.807] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 610.47, NVIDIA Corporation
+[18Jun2026 12:40:40.418] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
+[18Jun2026 12:40:40.420] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Architectury 13.0.8 (architectury)
+		Epic Fight 21.17.3 (epicfight)
+		Epic Fight: Skill Tree 21.3.1 (epicskills)
+		Epic Parcool 21.0.0 (epicparcool)
+		Fzzy Config 0.7.6+1.21+neoforge (fzzy_config)
+		Kotlin For Forge 5.11.0 (kotlinforforge)
+		Minecraft 1.21.1 (minecraft)
+		Minecraft Comes Alive 7.7.11+1.21.1 (mca)
+		Minecraft Comes Epicly Alive 21.0.1 (mcea)
+		MmmMmmMmmMmm 1.21-2.0.12 (dummmmmmy)
+		Moonlight Lib 1.21-2.29.33 (moonlight)
+		NeoForge 21.1.220 (neoforge)
+		ParCool! 3.4.3.3 (parcool)
+		Rapier For EpicFightMod 0.3.12-1.21.1 (refm)
+		Simply Swords 1.63.0-1.21.1 (simplyswords)
+		Simply Tooltips 0.1.3 (simplytooltips)
+[18Jun2026 12:40:42.804] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[18Jun2026 12:40:42.843] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.220, --gameDir, ., --assetsDir, C:\Users\thebe\.gradle\caches\neoformruntime\assets, --uuid, 42479ed5a8f04967bfb17500577896a6, --assetIndex, 17, --accessToken, ❄❄❄❄❄❄❄❄, --username, Forixaim, --userType, msa]
+[18Jun2026 12:40:42.995] [main/WARN] [mixin/]: Reference map 'epicskills.mixins.refmap.json' for epicskills.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jun2026 12:40:42.995] [main/WARN] [mixin/]: Reference map 'mca.refmap.json' for mca.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jun2026 12:40:43.000] [main/WARN] [mixin/]: Reference map 'mixins.epicparcool.refmap.json' for epicparcool.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jun2026 12:40:43.007] [main/WARN] [mixin/]: Reference map 'epicfight.mixins.refmap.json' for epicfight.mixins.json could not be read. If this is a development environment you can ignore this message
+[18Jun2026 12:40:43.916] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[18Jun2026 12:40:48.330] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 1406 milliseconds
+[18Jun2026 12:40:58.193] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Jun2026 12:40:58.195] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Jun2026 12:40:58.197] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Jun2026 12:40:58.199] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[18Jun2026 12:40:58.200] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[18Jun2026 12:40:58.359] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/thebe/IdeaProjects/Minecraft%20Comes%20Epicly%20Alive/build/moddev/artifacts/neoforge-21.1.220.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[18Jun2026 12:40:58.359] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/thebe/IdeaProjects/Minecraft%20Comes%20Epicly%20Alive/build/moddev/artifacts/neoforge-21.1.220.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[18Jun2026 12:40:58.414] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18Jun2026 12:40:58.422] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Forixaim
+[18Jun2026 12:40:58.512] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[18Jun2026 12:40:59.320] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.220, for MC 1.21.1
+[18Jun2026 12:40:59.906] [modloading-worker-0/INFO] [Moonlight/]: Detected config change in moonlight-common.toml, from neoforge config event
+[18Jun2026 12:41:00.698] [modloading-worker-0/INFO] [epicfight/]: Loaded mod compatibility module: SimplyTooltipsModule
+[18Jun2026 12:41:00.964] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[18Jun2026 12:41:01.126] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config fzzy_config:keybinds in 896ms
+[18Jun2026 12:41:01.372] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:general in 197ms
+[18Jun2026 12:41:01.391] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplytooltips:config in 222ms
+[18Jun2026 12:41:01.392] [modloading-worker-0/INFO] [simplytooltips/]: SimplyTooltips config loaded: simplytooltips:config
+[18Jun2026 12:41:01.722] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:gem_powers in 271ms
+[18Jun2026 12:41:01.729] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:status_effects in 4ms
+[18Jun2026 12:41:01.796] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:weapon_attributes in 61ms
+[18Jun2026 12:41:02.049] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:unique_effects in 138ms
+[18Jun2026 12:41:02.266] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.267] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.267] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.267] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.267] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.268] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CEnumParameter
+[18Jun2026 12:41:02.271] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.271] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.271] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.272] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.272] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.273] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.273] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.273] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.273] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.274] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.274] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.274] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CEnumParameter
+[18Jun2026 12:41:02.275] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.278] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.278] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CEnumParameter
+[18Jun2026 12:41:02.279] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.279] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CEnumParameter
+[18Jun2026 12:41:02.279] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CEnumParameter
+[18Jun2026 12:41:02.279] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.279] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.280] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.280] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.280] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.281] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.287] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.288] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.290] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.290] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.291] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.VillagerEntityMCA from class net.conczin.mca.util.network.datasync.CDataParameter
+[18Jun2026 12:41:02.309] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.conczin.mca.entity.GrimReaperEntity from class net.conczin.mca.util.network.datasync.CEnumParameter
+[18Jun2026 12:41:02.419] [modloading-sync-worker/INFO] [Moonlight/]: Initialized block sets in 10ms
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:combo_attacks
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:guard
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:impact_guard
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:last_active, epicfight:parry_motion_counter, epicfight:penalty_restore_counter] for epicfight:parrying
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:resisting_damage_type, epicfight:stacks, epicfight:tick_record] for epicfight:adaptive_skin
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:entity_id] for epicfight:bonebreaker
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:tick_record, epicfight:entity_id] for epicfight:vengeance
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:fall_distance] for epicfight:meteor_slam
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:jump_key_pressed_last_tick, epicfight:jump_count] for epicfight:phantom_ascent
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[18Jun2026 12:41:02.626] [modloading-sync-worker/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[18Jun2026 12:41:02.651] [modloading-sync-worker/INFO] [epicfight/]: Epic Fight web server connection helper: Initialize
+[18Jun2026 12:41:02.663] [modloading-sync-worker/INFO] [epicfight/]: Epic Fight web server connection helper: supported
+[18Jun2026 12:41:02.686] [modloading-sync-worker/INFO] [Moonlight/]: Detected config change in moonlight-common.toml, from neoforge config event
+[18Jun2026 12:41:02.738] [Render thread/INFO] [Moonlight/]: Merging 1 images using mode MIN_AREA_NO_UPSCALE
+[18Jun2026 12:41:03.329] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [mcea]
+[18Jun2026 12:41:03.673] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/mcea, mod/moonlight, mod/epicskills, mod/mca, mod/architectury, mod/epicparcool, mod/kotlinforforge, mod/dummmmmmy, mod/fzzy_config, mod/simplyswords, mod/simplytooltips, mod/epicfight, mod/refm, mod/neoforge, mod/parcool, moonlight:merged_pack, forixaim_rapiers
+[18Jun2026 12:41:03.698] [Worker-Main-1/INFO] [Moonlight/]: Resource cache state for CLIENT_RESOURCES: up to date
+[18Jun2026 12:41:03.699] [Worker-Main-1/INFO] [Moonlight/]: Starting runtime resource generation for pack type CLIENT_RESOURCES with generators [moonlight:dynamic_resources]
+[18Jun2026 12:41:03.702] [Worker-Main-1/INFO] [Moonlight/]: Regenerating Dynamic CLIENT_RESOURCES Resources Provider [moonlight:dynamic_resources], requested by strategy REGEN_ON_EVERY_RELOAD
+[18Jun2026 12:41:03.709] [Worker-Main-1/INFO] [Moonlight/]: Generated runtime CLIENT_RESOURCES for pack moonlight:dynamic_resources in 6.195 ms
+[18Jun2026 12:41:03.710] [Worker-Main-1/INFO] [Moonlight/]: Finished runtime resources generation for 1 packs in a total of 10.00 ms 
+[18Jun2026 12:41:03.730] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/neoforge_updates.json
+[18Jun2026 12:41:03.869] [Render thread/INFO] [Moonlight/]: Initialized color sets in 29ms
+[18Jun2026 12:41:03.871] [Worker-Main-13/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[18Jun2026 12:41:03.915] [Worker-Main-12/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[18Jun2026 12:41:03.991] [NeoForge Version Check/WARN] [net.neoforged.fml.VersionChecker/]: Failed to process update information
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "promos" is null
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.process(VersionChecker.java:173) ~[loader-4.0.42.jar%23146!/:4.0]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.VersionChecker$1.run(VersionChecker.java:105) [loader-4.0.42.jar%23146!/:4.0]
+[18Jun2026 12:41:04.158] [Worker-Main-17/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture epicfight:item/wooden_tachi with size 30x30 limits mip level from 4 to 1
+[18Jun2026 12:41:04.199] [Render thread/WARN] [epicfight/]: [Computer Shader Acceleration] OpenGL Version: 4.6.0 NVIDIA 610.47
+[18Jun2026 12:41:04.199] [Render thread/WARN] [epicfight/]: [Computer Shader Acceleration] Compute Shader: Supported
+[18Jun2026 12:41:05.841] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='sfx.slam_light', args=[]} for sound event: epicfight:sfx.slam_light
+[18Jun2026 12:41:05.841] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.adrenaline', args=[]} for sound event: epicfight:skill.adrenaline
+[18Jun2026 12:41:05.841] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.endurance', args=[]} for sound event: epicfight:skill.endurance
+[18Jun2026 12:41:05.841] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.adaptive_skin_increase', args=[]} for sound event: epicfight:skill.adaptive_skin_increase
+[18Jun2026 12:41:05.842] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.weapon.skill', args=[]} for sound event: refm:entity.weapon.rapier_skill
+[18Jun2026 12:41:05.842] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.stamina_pillager_death', args=[]} for sound event: epicfight:skill.stamina_pillager_death
+[18Jun2026 12:41:05.842] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='ui.gain_ability_points', args=[]} for sound event: epicskills:ui.gain_ability_points
+[18Jun2026 12:41:05.842] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.weapon.stab', args=[]} for sound event: refm:entity.weapon.rapier_hit
+[18Jun2026 12:41:05.842] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='ui.hover', args=[]} for sound event: epicfight:ui.hover
+[18Jun2026 12:41:05.842] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.swordmaster', args=[]} for sound event: epicfight:skill.swordmaster
+[18Jun2026 12:41:05.842] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.weapon.stab', args=[]} for sound event: refm:entity.weapon.rapier_wither_hit
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.weapon.stab', args=[]} for sound event: refm:entity.weapon.rapier_stab
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.vengeance', args=[]} for sound event: epicfight:skill.vengeance
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='ui.hover', args=[]} for sound event: epicskills:ui.hover
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.weapon.stab', args=[]} for sound event: refm:entity.weapon.rapier_ocean_wave
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.emergency_escape', args=[]} for sound event: epicfight:skill.emergency_escape
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitle.mca.villager.cough', args=[]} for sound event: mca:villager.female.cough
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.technician', args=[]} for sound event: epicfight:skill.technician
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.weapon.jump', args=[]} for sound event: refm:entity.weapon.rapier_ocean_jump
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.catharsis', args=[]} for sound event: epicfight:skill.catharsis
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.hit.old_fall', args=[]} for sound event: epicfight:entity.hit.old_fall
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='sfx.slam_heavy', args=[]} for sound event: epicfight:sfx.slam_heavy
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.weapon.swing', args=[]} for sound event: refm:entity.weapon.rapier_swing
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.adaptive_skin_decrease', args=[]} for sound event: epicfight:skill.adaptive_skin_decrease
+[18Jun2026 12:41:05.843] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.wither.wither_spell_armor', args=[]} for sound event: epicfight:entity.wither.wither_spell_armor
+[18Jun2026 12:41:05.844] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='entity.weapon.jump', args=[]} for sound event: refm:entity.weapon.rapier_jump
+[18Jun2026 12:41:05.844] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='skill.hypervitality', args=[]} for sound event: epicfight:skill.hypervitality
+[18Jun2026 12:41:05.844] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='subtitle.mca.villager.cough', args=[]} for sound event: mca:villager.male.cough
+[18Jun2026 12:41:05.844] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[18Jun2026 12:41:05.844] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[18Jun2026 12:41:05.844] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: epicfight:sfx.no_sound
+[18Jun2026 12:41:05.971] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphones (2- SteelSeries Arctis Nova 5)
+[18Jun2026 12:41:05.972] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[18Jun2026 12:41:06.055] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[18Jun2026 12:41:06.064] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[18Jun2026 12:41:06.064] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18Jun2026 12:41:06.065] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18Jun2026 12:41:06.065] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[18Jun2026 12:41:06.067] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[18Jun2026 12:41:06.067] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18Jun2026 12:41:06.067] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18Jun2026 12:41:06.068] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18Jun2026 12:41:06.867] [Render thread/ERROR] [epicfight/]: Can't load layer file minecraft:animated_layers/player/waveycapes.json for entity.minecraft.player: dev.tr7zw.waveycapes.renderlayers.CustomCapeRenderLayer (This is develop-only message and neglectable if the resource is not belong to you)
+[18Jun2026 12:41:06.869] [Render thread/ERROR] [epicfight/]: Can't load layer file minecraft:animated_layers/player/waveycapes.json for entity.minecraft.player: dev.tr7zw.waveycapes.renderlayers.CustomCapeRenderLayer (This is develop-only message and neglectable if the resource is not belong to you)
+[18Jun2026 12:41:06.874] [Render thread/ERROR] [epicfight/]: Can't load layer file minecraft:animated_layers/player/waveycapes.json for entity.minecraft.player: dev.tr7zw.waveycapes.renderlayers.CustomCapeRenderLayer (This is develop-only message and neglectable if the resource is not belong to you)
+[18Jun2026 12:41:06.885] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x0 minecraft:textures/atlas/particles.png-atlas
+[18Jun2026 12:41:06.889] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18Jun2026 12:41:06.890] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18Jun2026 12:41:06.890] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/map_decorations.png-atlas
+[18Jun2026 12:41:06.890] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[18Jun2026 12:41:06.908] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[18Jun2026 12:41:06.976] [Render thread/INFO] [simplytooltips/]: [SimplyTooltips] Loaded 32 theme(s)
+[18Jun2026 12:41:06.978] [Render thread/INFO] [simplytooltips/]: [SimplyTooltips] Loaded 147 item theme(s), 146 item badge override(s), 27 tag entries
+[18Jun2026 12:41:07.590] [Render thread/WARN] [epicfight/]: Failed to load item skin: no item named irons_spellbooks:misery
+[18Jun2026 12:41:07.591] [Render thread/WARN] [epicfight/]: Failed to load item skin: no item named irons_spellbooks:amethyst_rapier
+[18Jun2026 12:41:07.591] [Render thread/WARN] [epicfight/]: Failed to load item skin: no item named refm:gold_rapier
+[18Jun2026 12:41:07.593] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[18Jun2026 12:41:10.751] [Worker-Main-14/INFO] [fzzy_config/]: Loaded config simplyswords:loot in 9ms
+[18Jun2026 12:41:10.921] [Worker-Main-14/ERROR] [net.minecraft.world.level.storage.loot.LootDataType/]: Couldn't parse element ResourceKey[minecraft:root / minecraft:loot_table]:parcool:grant_parcool_guide - No component with type: 'patchouli:book'; No component with type: 'patchouli:book' missed input: {"patchouli:book":"parcool:parcool_guide"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: patchouli:guide_book
+[18Jun2026 12:41:11.176] [Worker-Main-17/INFO] [epicfight/]: Generated conditional modifier: epicfight:bokken/generated/modifier/ochs
+[18Jun2026 12:41:11.184] [Worker-Main-17/INFO] [epicfight/]: Generated moveset modifier: epicfight:bokken/generated/modifier/ochs
+[18Jun2026 12:41:11.209] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:swords as it is missing following references: 
+	refm:gold_rapier (from mod/refm)
+[18Jun2026 12:41:11.210] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:enchantable/sword as it is missing following references: 
+	#minecraft:swords (from vanilla)
+[18Jun2026 12:41:11.210] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:breaks_decorated_pots as it is missing following references: 
+	#minecraft:swords (from vanilla)
+[18Jun2026 12:41:11.210] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:enchantable/sharp_weapon as it is missing following references: 
+	#minecraft:swords (from vanilla)
+[18Jun2026 12:41:11.211] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:enchantable/weapon as it is missing following references: 
+	#minecraft:enchantable/sharp_weapon (from vanilla)
+[18Jun2026 12:41:11.211] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:enchantable/fire_aspect as it is missing following references: 
+	#minecraft:enchantable/sword (from vanilla)
+[18Jun2026 12:41:11.211] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:enchantable/durability as it is missing following references: 
+	#minecraft:swords (from vanilla)
+[18Jun2026 12:41:11.211] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:enchantable/vanishing as it is missing following references: 
+	#minecraft:enchantable/durability (from vanilla)
+[18Jun2026 12:41:11.212] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag c:tools as it is missing following references: 
+	#minecraft:swords (from mod/neoforge)
+[18Jun2026 12:41:11.212] [Worker-Main-7/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag c:enchantables as it is missing following references: 
+	#minecraft:enchantable/weapon (from mod/neoforge)
+	#minecraft:enchantable/sword (from mod/neoforge)
+	#minecraft:enchantable/fire_aspect (from mod/neoforge)
+	#minecraft:enchantable/durability (from mod/neoforge)
+	#minecraft:enchantable/vanishing (from mod/neoforge)
+[18Jun2026 12:41:11.380] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe parcool:parcool_guide
+com.google.gson.JsonParseException: No component with type: 'patchouli:book'; No component with type: 'patchouli:book' missed input: {"patchouli:book":"parcool:parcool_guide"}; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: patchouli:guide_book
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23121!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-21.1.220.jar%23189!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:516) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:499) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:303) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:52) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:103) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:471) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:100) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:212) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:212) ~[neoforge-21.1.220.jar%23189!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23183!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:162) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1226) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.220.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.220.jar%23189!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.covers1624.devlogin.DevLogin.main(DevLogin.java:107) [DevLogin-0.1.0.5.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[18Jun2026 12:41:11.386] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1667 recipes
+[18Jun2026 12:41:11.586] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1699 advancements
+[18Jun2026 12:41:11.633] [Render thread/WARN] [epicfight/]: Skill epicfight:air_slash doesn't exist in the registry.
+[18Jun2026 12:41:11.634] [Render thread/INFO] [epicfight/]: Pulling epicfight:map from register
+[18Jun2026 12:41:11.634] [Render thread/INFO] [epicfight/]: Pulling refm:rapier from register
+[18Jun2026 12:41:11.634] [Render thread/INFO] [epicfight/]: Pulling refm:ocean_rapier from register
+[18Jun2026 12:41:11.634] [Render thread/INFO] [epicfight/]: Pulling epicfight:bow from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:bokken from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:uchigatana from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:axe from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:spear from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling refm:ender_rapier from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:greatsword from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling refm:amethyst_rapier from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:pickaxe from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling refm:wither_rapier from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:longsword from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:armor from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:crossbow from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:trident from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:hoe from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:tachi from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:dagger from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:fist from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:sword from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:shovel from register
+[18Jun2026 12:41:11.635] [Render thread/INFO] [epicfight/]: Pulling epicfight:shield from register
+[18Jun2026 12:41:11.642] [Render thread/WARN] [epicfight/]: Item Capability Exception: No item named irons_spellbooks:misery
+[18Jun2026 12:41:11.645] [Render thread/WARN] [epicfight/]: Item Capability Exception: No item named irons_spellbooks:amethyst_rapier
+[18Jun2026 12:41:11.646] [Render thread/WARN] [epicfight/]: Error while deserializing datapack for minecraft:wooden_sword: No value present
+[18Jun2026 12:41:11.674] [Render thread/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:rune","colors":{"default":"quark:blank_rune"},"replace":false}. Ignoring
+[18Jun2026 12:41:11.674] [Render thread/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"suppsquared:sack","colors":{"default":"supplementaries:sack"},"replace":false}. Ignoring
+[18Jun2026 12:41:11.674] [Render thread/INFO] [Moonlight/]: Failed to load custom color set definition {"id":"quark:shard","colors":{"default":"quark:clear_shard"},"replace":false}. Ignoring
+[18Jun2026 12:41:11.688] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/durability, minecraft:enchantable/fire_aspect, minecraft:enchantable/sharp_weapon, minecraft:enchantable/sword, minecraft:enchantable/vanishing, minecraft:enchantable/weapon
+[18Jun2026 12:41:12.075] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[18Jun2026 12:41:12.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18Jun2026 12:41:12.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18Jun2026 12:41:12.504] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[18Jun2026 12:41:12.692] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[18Jun2026 12:41:12.695] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 409 ms
+[18Jun2026 12:41:12.754] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[18Jun2026 12:41:12.755] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[18Jun2026 12:41:13.128] [Render thread/INFO] [fzzy_config/]: Saved config general to file C:\Users\thebe\IdeaProjects\Minecraft Comes Epicly Alive\run\config\simplyswords\general.toml
+[18Jun2026 12:41:13.129] [Render thread/INFO] [fzzy_config/]: Saved config status_effects to file C:\Users\thebe\IdeaProjects\Minecraft Comes Epicly Alive\run\config\simplyswords\status_effects.toml
+[18Jun2026 12:41:13.131] [Render thread/INFO] [fzzy_config/]: Saved config loot to file C:\Users\thebe\IdeaProjects\Minecraft Comes Epicly Alive\run\config\simplyswords\loot.toml
+[18Jun2026 12:41:13.132] [Render thread/INFO] [fzzy_config/]: Saved config config to file C:\Users\thebe\IdeaProjects\Minecraft Comes Epicly Alive\run\config\simplytooltips\config.toml
+[18Jun2026 12:41:13.153] [Render thread/INFO] [fzzy_config/]: Saved config unique_effects to file C:\Users\thebe\IdeaProjects\Minecraft Comes Epicly Alive\run\config\simplyswords\unique_effects.toml
+[18Jun2026 12:41:13.156] [Render thread/INFO] [fzzy_config/]: Saved config weapon_attributes to file C:\Users\thebe\IdeaProjects\Minecraft Comes Epicly Alive\run\config\simplyswords\weapon_attributes.toml
+[18Jun2026 12:41:13.158] [Render thread/INFO] [fzzy_config/]: Saved config gem_powers to file C:\Users\thebe\IdeaProjects\Minecraft Comes Epicly Alive\run\config\simplyswords\gem_powers.toml
+[18Jun2026 12:41:13.325] [ForkJoinPool.commonPool-worker-8/WARN] [epicfight/]: Auto login failed with status code 504: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+
+[18Jun2026 12:41:13.425] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Forixaim[local:E:849a8959] logged in with entity id 2 at (-484.808306126826, -57.716403365284656, 345.89043704229823)
+[18Jun2026 12:41:13.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Forixaim joined the game
+[18Jun2026 12:41:13.929] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 42479ed5-a8f0-4967-bfb1-7500577896a6 was loaded
+[18Jun2026 12:41:14.021] [Render thread/INFO] [Moonlight/]: Overriding configs moonlight-common.toml with synced configs (editable)
+[18Jun2026 12:41:14.027] [Render thread/INFO] [Moonlight/]: Detected config change in moonlight-common.toml, from neoforge config event
+[18Jun2026 12:41:14.034] [Render thread/INFO] [Moonlight/]: Detected config change in moonlight-common.toml, from neoforge config event
+[18Jun2026 12:41:14.034] [Render thread/INFO] [Moonlight/]: Synced moonlight-common.toml configs
+[18Jun2026 12:41:14.036] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 109 advancements
+[18Jun2026 12:41:14.537] [FileWatcher-1-thread-1/INFO] [Moonlight/]: Detected config change in moonlight-common.toml, from neoforge config event
+[18Jun2026 12:41:15.026] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gaetano: Here! Here!
+[18Jun2026 12:41:22.757] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gaetano: Intruder!
+[18Jun2026 12:41:24.334] [ForkJoinPool.commonPool-worker-8/ERROR] [epicfight/]: Failed at connecting Epic Fight web server: <html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+
+[18Jun2026 12:41:30.807] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gaetano: I could use some support over here!
+[18Jun2026 12:41:35.345] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[18Jun2026 12:41:35.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:overworld
+[18Jun2026 12:41:35.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:the_end
+[18Jun2026 12:41:35.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:the_nether
+[18Jun2026 12:41:40.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Forixaim: Teleported Gaetano to Forixaim]
+[18Jun2026 12:41:40.675] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Gaetano to Forixaim
+[18Jun2026 12:41:47.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Forixaim: Teleported Gaetano to Forixaim]
+[18Jun2026 12:41:47.105] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Gaetano to Forixaim
+[18Jun2026 12:41:52.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Forixaim: Teleported Gaetano to Forixaim]
+[18Jun2026 12:41:52.986] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Gaetano to Forixaim
+[18Jun2026 12:41:56.803] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gaetano: Stop right here, criminal scum!
+[18Jun2026 12:42:04.851] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gaetano: Stop right here, criminal scum!
+[18Jun2026 12:42:09.746] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[18Jun2026 12:42:09.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:overworld
+[18Jun2026 12:42:09.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:the_end
+[18Jun2026 12:42:09.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:the_nether
+[18Jun2026 12:42:39.804] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Gaetano: Flank them!
+[18Jun2026 12:42:49.046] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[18Jun2026 12:42:49.055] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:overworld
+[18Jun2026 12:42:49.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:the_end
+[18Jun2026 12:42:49.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:the_nether
+[18Jun2026 12:42:49.909] [Render thread/ERROR] [epicfight/]: Can't load layer file minecraft:animated_layers/player/waveycapes.json for entity.minecraft.player: dev.tr7zw.waveycapes.renderlayers.CustomCapeRenderLayer (This is develop-only message and neglectable if the resource is not belong to you)
+[18Jun2026 12:42:49.952] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Forixaim lost connection: Disconnected
+[18Jun2026 12:42:49.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Forixaim left the game
+[18Jun2026 12:42:49.954] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 42479ed5-a8f0-4967-bfb1-7500577896a6 was unloaded
+[18Jun2026 12:42:49.969] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[18Jun2026 12:42:50.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18Jun2026 12:42:50.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18Jun2026 12:42:50.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18Jun2026 12:42:50.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:overworld
+[18Jun2026 12:42:50.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:the_end
+[18Jun2026 12:42:50.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Barts]'/minecraft:the_nether
+[18Jun2026 12:42:50.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18Jun2026 12:42:50.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18Jun2026 12:42:50.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18Jun2026 12:42:50.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:combo_attacks
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:guard
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:penalty_restore_counter] for epicfight:impact_guard
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:penalty, epicfight:last_active, epicfight:parry_motion_counter, epicfight:penalty_restore_counter] for epicfight:parrying
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:resisting_damage_type, epicfight:stacks, epicfight:tick_record] for epicfight:adaptive_skin
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:tick_record] for epicfight:adrenaline_fiend
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:stacks, epicfight:entity_id] for epicfight:bonebreaker
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:tick_record, epicfight:entity_id] for epicfight:vengeance
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:fall_distance] for epicfight:meteor_slam
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:stacks] for epicfight:revelation
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall] for epicfight:demolition_leap
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:slam_protect_next_fall, epicfight:jump_key_pressed_last_tick, epicfight:jump_count] for epicfight:phantom_ascent
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:last_hit_count] for epicfight:grasping_spire
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:combo_counter] for epicfight:blade_rush
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:thrown_trident_entity_id] for epicfight:everlasting_allegiance
+[18Jun2026 12:42:50.621] [Render thread/INFO] [epicfight/]: Data keys [epicfight:sheath] for epicfight:battojutsu_passive
+[18Jun2026 12:42:51.350] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -1,0 +1,81 @@
+[versions]
+
+#Core Mod Versions
+mod = "21.0.1"
+java = "21"
+
+# Minecraft
+minecraft = "1.21.1"
+parchmentMappings = "2024.11.17"
+
+# NeoForge
+neoforge = "21.1.220"
+neoforgeRange = "[21,)"
+moddevgradle = "2.0.134"
+neoform = "1.21.1-20240808.144430"
+
+# SpongePowered Mixin
+mixin = "0.8.7"
+
+# Plugins
+modPublish = "1.1.0"
+mcSafeResources = "0.0.2"
+
+# Dependencies
+
+## Epic Fight
+epic-fight = "21.17.3-mc1.21.1-neoforge"
+epicskills = "21.3.1-1.21.1"
+battleArtsAPI = "21.17.7-mc1.21.1-neoforge"
+epicFightLocal = "21.17.2"
+
+## Dummy Mod
+dummy = "1.21-2.0.12-neoforge"
+moonlight = "1.21-2.29.33-neoforge"
+
+## Simply Swords
+simplyswords = "1.63.0-1.21.1"
+simplytooltips = "0.1.3"
+architectury = "13.0.8+neoforge"
+fzzy = "0.7.6+1.21+neoforge"
+kotlin = "5.11.0"
+mca = "8247422"
+
+## Parcool
+parcool = "1.21.1-3.4.3.3"
+epicparcool = "21.0.0-1.21.1"
+
+## Epic Fight Addons
+rapier = "8122471"
+
+[libraries]
+epicFight = { module = "maven.modrinth:epic-fight", version.ref = "epic-fight" }
+epicskills = { module = "maven.modrinth:epic-fight-skill-tree", version.ref = "epicskills"}
+battleArtsAPI = { module = "maven.modrinth:battle-arts-api", version.ref = "battleArtsAPI"}
+mcaReborn = {module ="curse.maven:minecraft-comes-alive-reborn-535291", version.ref = "mca"}
+
+dummy = { group = "maven.modrinth", name = "mmmmmmmmmmmm", version.ref = "dummy"}
+moonlight = { group = "maven.modrinth", name = "moonlight", version.ref = "moonlight"}
+simplyswords = { group = "maven.modrinth", name = "simply-swords", version.ref = "simplyswords"}
+fzzy = {group = "maven.modrinth", name = "fzzy-config", version.ref = "fzzy"}
+architectury = {group = "maven.modrinth", name = "architectury-api", version.ref = "architectury"}
+simplytooltips = {group = "maven.modrinth", name = "simply-tooltips", version.ref = "simplytooltips"}
+kotlin = {group = "maven.modrinth", name = "kotlin-for-forge", version.ref = "kotlin"}
+parcool = {group = "maven.modrinth", name = "parcool", version.ref = "parcool"}
+epicparcool = {group = "maven.modrinth", name = "official-epic-x-parcool", version.ref = "epicparcool"}
+rapier = {group = "curse.maven", name = "epic-fight-mod-rapier-moveset-addon-1036425", version.ref = "rapier"}
+
+publisher = { module = "me.modmuss50.mod-publish-plugin:me.modmuss50.mod-publish-plugin.gradle.plugin", version.ref = "modPublish"}
+
+
+[plugins]
+core = {id = "core"}
+mcSafeResources = { id = "dev.echoellet.mc-safe-resources", version.ref = "mcSafeResources" }
+moddevgradle = { id = "net.neoforged.moddev", version.ref = "moddevgradle" }
+
+[bundles]
+
+simplyswords = ["simplyswords", "simplytooltips", "architectury", "kotlin", "fzzy"]
+epicfight = ["epicFight", "epicskills"]
+parcool = ["parcool", "epicparcool"]
+
