@@ -33,6 +33,9 @@ private fun Project.gradleProperty(name: String): String {
 val Project.modVersion: String
     get() = catalogVersion("mod")
 
+val Project.releaseType: ReleaseType
+    get() = ReleaseType.valueOf(catalogVersion("releaseType").uppercase())
+
 private val Project.modLicense: String
     get() = gradleProperty("license")
 
@@ -89,7 +92,23 @@ fun Project.configureBaseArchive(variant: String) {
     }
 }
 
-private fun Project.getFullModVersion(variant: String): String = "${modVersion}-mc${mcVersion}-$variant"
+private fun Project.getFullModVersion(variant: String): String {
+    // 1. Read your background build tracking counter
+    val propsFile = file("build.properties")
+    val currentBuildNumber = if (propsFile.exists()) {
+        val props = java.util.Properties()
+        propsFile.inputStream().use { props.load(it) }
+        props.getProperty("buildNumber", "0").toLong()
+    } else {
+        0L
+    }
+    val stageSuffix = when (releaseType) {
+        ReleaseType.RELEASE -> ""
+        ReleaseType.BETA    -> "-beta.build-$currentBuildNumber"
+        ReleaseType.ALPHA   -> "-alpha.build-$currentBuildNumber"
+    }
+    return "$modVersion-mc$mcVersion-$variant$stageSuffix"
+}
 
 enum class ModLoader(val conventionalName: String) {
     NeoForge("neoforge"),
@@ -169,17 +188,17 @@ fun Project.configureModPublish(
         file.set(jarFile())
         additionalFiles.from(sourcesJar)
 
-        val requiredDependencies = emptyList<String>()
         val optionalDependencies = emptyList<String>()
 
         curseforge {
             accessToken.set(providers.environmentVariable("CURSEFORGE_TOKEN"))
             minecraftVersions.add(mcVersion)
 
-            projectId.set("933502")
-            projectSlug.set("battle-arts")
+            projectId.set("1580127")
+            projectSlug.set("minecraft-comes-epicly-alive")
 
-            requiredDependencies.forEach { requires(it) }
+            requires("minecraft-comes-alive-reborn", "epic-fight-mod")
+
             optionalDependencies.forEach { optional(it) }
 
             clientRequired.set(true)
@@ -188,22 +207,22 @@ fun Project.configureModPublish(
 
         modrinth {
             accessToken.set(providers.environmentVariable("MODRINTH_TOKEN"))
-            projectId.set("Dd6vT4jF")
+            projectId.set("ZILkvItJ")
             minecraftVersions.add(mcVersion)
 
-            requiredDependencies.forEach { requires(it) }
+            requires("minecraft-comes-alive-reborn", "epic-fight")
             optionalDependencies.forEach { optional(it) }
         }
 
         discord {
             webhookUrl.set(providers.environmentVariable("BATTLE_ARTS_DISCORD_URL"))
-            username.set("Battle Artist")
+            username.set("Guard")
             avatarUrl.set("https://cdn.discordapp.com/attachments/1404959979496013894/1487715037689810945/Acid.png?ex=69ca2619&is=69c8d499&hm=22ccf65d8fee84a316d829f1f063cb45c1f53918f1b4b2fda653c3ab7203d094&")
             content.set(
                 changelog.map {
                     buildString {
                         appendLine("<@&1074034800849059930>")
-                        appendLine("# Battle Arts $modVersion is released.")
+                        appendLine("# MC-EA $modVersion is released.")
                         appendLine(releaseChangelog)
                     }
                 }

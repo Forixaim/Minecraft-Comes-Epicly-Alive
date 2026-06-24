@@ -56,6 +56,8 @@ sourceSets.main {
     resources.srcDir(layout.projectDirectory.dir("src/generated/resources"))
 }
 
+
+
 configurations {
     val localRuntime by creating
 
@@ -71,7 +73,7 @@ dependencies {
     implementation(libs.bundles.epicfight)
     implementation(libs.mcaReborn)
     implementation(libs.bundles.parcool)
-    implementation(libs.rapier)
+    runtimeOnly(libs.rapier)
 }
 
 mcSafeResources {
@@ -94,10 +96,13 @@ val groupPath = group.toString().replace('.', '/')
 val apiPackage = "$groupPath/mana_arts/api/**"
 val apiJarClassifier = "api"
 
+tasks.named<Jar>("jar") {
+    finalizedBy()
+}
+
 val apiJar by tasks.registering(Jar::class) {
     group = "build"
     archiveClassifier.set(apiJarClassifier)
-
     from(sourceSets.main.get().output) { include(apiPackage) }
 }
 

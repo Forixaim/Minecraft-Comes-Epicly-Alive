@@ -1,8 +1,10 @@
 [versions]
 
 #Core Mod Versions
-mod = "21.0.1"
+mod = "21.17.0.1"
 java = "21"
+
+releaseType = "ALPHA"
 
 # Minecraft
 minecraft = "1.21.1"

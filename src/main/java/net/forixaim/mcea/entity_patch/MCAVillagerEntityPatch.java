@@ -200,7 +200,12 @@ public class MCAVillagerEntityPatch extends HumanoidMobPatch<VillagerEntityMCA> 
     public void updateMotion(boolean considerInaction) {
         if (this.original.getHealth() <= 0.0F) {
             currentLivingMotion = LivingMotions.DEATH;
-        } else if (this.state.inaction() && considerInaction) {
+
+        }
+        else if (this.original.isSleeping()) {
+            currentLivingMotion = LivingMotions.SLEEP;
+        }
+        else if (this.state.inaction() && considerInaction) {
             currentLivingMotion = LivingMotions.IDLE;
         } else {
             if (original.getVehicle() != null) {
