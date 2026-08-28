@@ -1,7 +1,7 @@
 [versions]
 
 #Core Mod Versions
-mod = "21.17.0.1"
+mod = "21.17.0.2"
 java = "21"
 
 releaseType = "ALPHA"
@@ -41,7 +41,7 @@ simplytooltips = "0.1.3"
 architectury = "13.0.8+neoforge"
 fzzy = "0.7.6+1.21+neoforge"
 kotlin = "5.11.0"
-mca = "8247422"
+mca = "S2Ln2tIn"
 
 ## Parcool
 parcool = "1.21.1-3.4.3.3"
@@ -54,7 +54,7 @@ rapier = "8122471"
 epicFight = { module = "maven.modrinth:epic-fight", version.ref = "epic-fight" }
 epicskills = { module = "maven.modrinth:epic-fight-skill-tree", version.ref = "epicskills"}
 battleArtsAPI = { module = "maven.modrinth:battle-arts-api", version.ref = "battleArtsAPI"}
-mcaReborn = {module ="curse.maven:minecraft-comes-alive-reborn-535291", version.ref = "mca"}
+mcaReborn = {module ="maven.modrinth:minecraft-comes-alive-reborn", version.ref = "mca"}
 
 dummy = { group = "maven.modrinth", name = "mmmmmmmmmmmm", version.ref = "dummy"}
 moonlight = { group = "maven.modrinth", name = "moonlight", version.ref = "moonlight"}
