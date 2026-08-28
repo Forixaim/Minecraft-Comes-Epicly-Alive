@@ -22,6 +22,7 @@ import yesman.epicfight.registry.entries.EpicFightAttributes;
 @Mod(MinecraftComesEpiclyAlive.MOD_ID)
 public class MinecraftComesEpiclyAlive {
     public static final String MOD_ID = "mcea";
+
     public MinecraftComesEpiclyAlive(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
         modEventBus.addListener(EntityAttributeModificationEvent.class, event -> {

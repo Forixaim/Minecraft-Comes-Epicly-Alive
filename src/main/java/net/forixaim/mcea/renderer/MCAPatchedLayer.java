@@ -1,6 +1,7 @@
 package net.forixaim.mcea.renderer;
 
 import com.mojang.blaze3d.vertex.PoseStack;
+import com.mojang.logging.LogUtils;
 import net.conczin.mca.client.model.VillagerEntityModelMCA;
 import net.conczin.mca.client.render.layer.VillagerLayer;
 import net.conczin.mca.entity.VillagerEntityMCA;
@@ -26,20 +27,25 @@ public class MCAPatchedLayer extends PatchedLayer<VillagerEntityMCA, HumanoidMob
         ResourceLocation resourceLocation = this.vanillaLayer.getSkin(villager);
         if (resourceLocation != null)
         {
-            int packerOverlay = LivingEntityRenderer.getOverlayCoords(villager, 0);
-            RenderType renderType = RenderType.entityCutoutNoCull(resourceLocation);
-            int color = this.vanillaLayer.getColor(villager, partialTicks);
-            int a = (color >> 24) & 0xFF;
-            int r = (color >> 16) & 0xFF;
-            int g = (color >> 8) & 0xFF;
-            int b = color & 0xFF;
-
-            float alpha = a / 255.0F;
-            float red   = r / 255.0F;
-            float green = g / 255.0F;
-            float blue  = b / 255.0F;
-            parent.getDefaultMesh().get().draw(poseStack, buffer, renderType, packedLight, red, green, blue, alpha, packerOverlay, entitypatch.getArmature(), poses);
+            renderMCALayer(entitypatch, villager, poseStack, buffer, packedLight, poses, partialTicks, resourceLocation);
         }
 
+    }
+
+    private void renderMCALayer(HumanoidMobPatch<VillagerEntityMCA> entitypatch, VillagerEntityMCA villager, PoseStack poseStack, MultiBufferSource buffer, int packedLight, OpenMatrix4f[] poses, float partialTicks, ResourceLocation resourceLocation)
+    {
+        int packerOverlay = LivingEntityRenderer.getOverlayCoords(villager, 0);
+        RenderType renderType = RenderType.entityCutoutNoCull(resourceLocation);
+        int color = this.vanillaLayer.getColor(villager, partialTicks);
+        int a = (color >> 24) & 0xFF;
+        int r = (color >> 16) & 0xFF;
+        int g = (color >> 8) & 0xFF;
+        int b = color & 0xFF;
+
+        float alpha = a / 255.0F;
+        float red   = r / 255.0F;
+        float green = g / 255.0F;
+        float blue  = b / 255.0F;
+        parent.getDefaultMesh().get().draw(poseStack, buffer, renderType, packedLight, red, green, blue, alpha, packerOverlay, entitypatch.getArmature(), poses);
     }
 }

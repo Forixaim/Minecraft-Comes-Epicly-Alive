@@ -1,15 +1,20 @@
 package net.forixaim.mcea.renderer;
 
 import com.mojang.blaze3d.vertex.PoseStack;
+import com.mojang.logging.LogUtils;
 import net.conczin.mca.client.model.VillagerEntityModelMCA;
 import net.conczin.mca.client.render.VillagerEntityMCARenderer;
+import net.conczin.mca.client.render.layer.FaceLayer;
+import net.conczin.mca.client.render.layer.HairLayer;
 import net.conczin.mca.client.render.layer.VillagerLayer;
 import net.conczin.mca.entity.VillagerEntityMCA;
 import net.conczin.mca.registry.ProfessionsMCA;
+import net.forixaim.mcea.MinecraftComesEpiclyAlive;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.entity.EntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.LivingEntityRenderer;
+import net.minecraft.client.renderer.entity.layers.EyesLayer;
 import net.minecraft.world.entity.EntityType;
 import yesman.epicfight.api.client.model.Meshes;
 import yesman.epicfight.api.utils.math.OpenMatrix4f;
@@ -23,11 +28,22 @@ public class PMCAVillagerRenderer extends PHumanoidRenderer<VillagerEntityMCA, H
                                 EntityType<?> entityType) {
         super(Meshes.BIPED, context, entityType);
         EntityRenderer<?> renderer = context.getEntityRenderDispatcher().renderers.get(entityType);
+
         if (renderer instanceof VillagerEntityMCARenderer entityMCARenderer) {
+            LogUtils.getLogger().debug("Patching Villager Renderer with layer size: {}", entityMCARenderer.layers.size());
             for (var layer : entityMCARenderer.layers)
             {
+                LogUtils.getLogger().debug("Current Layer: {}", layer.getClass());
                 if (layer instanceof VillagerLayer<VillagerEntityMCA, VillagerEntityModelMCA<VillagerEntityMCA>> villagerLayer)
-                    this.addPatchedLayer(layer.getClass(), new MCAPatchedLayer(this, villagerLayer));
+                {
+                    LogUtils.getLogger().debug("Patching Villager Layer: {}", villagerLayer.getClass());
+                    if (layer instanceof HairLayer<VillagerEntityMCA, VillagerEntityModelMCA<VillagerEntityMCA>> hairLayer)
+                        this.addPatchedLayer(layer.getClass(), new MCAPatchedHairLayer(this, hairLayer));
+                    else if (layer instanceof FaceLayer<VillagerEntityMCA, VillagerEntityModelMCA<VillagerEntityMCA>> faceLayer)
+                        this.addPatchedLayer(layer.getClass(), new MCAPatchedFaceLayer(this, faceLayer));
+                    else
+                        this.addPatchedLayer(layer.getClass(), new MCAPatchedLayer(this, villagerLayer));
+                }
             }
         }
     }

@@ -9,6 +9,7 @@
 out/
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+yubikey.conf
 
 # JIRA plugin
 atlassian-ide-plugin.xml

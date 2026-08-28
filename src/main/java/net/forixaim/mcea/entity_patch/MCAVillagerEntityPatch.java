@@ -161,6 +161,7 @@ public class MCAVillagerEntityPatch extends HumanoidMobPatch<VillagerEntityMCA> 
         animator.addLivingAnimation(LivingMotions.FALL, Animations.BIPED_FALL);
         animator.addLivingAnimation(LivingMotions.MOUNT, Animations.BIPED_MOUNT);
         animator.addLivingAnimation(LivingMotions.DEATH, Animations.BIPED_DEATH);
+        animator.addLivingAnimation(LivingMotions.SLEEP, Animations.BIPED_SLEEPING);
     }
 
     private boolean isAnticipatingAttack() {

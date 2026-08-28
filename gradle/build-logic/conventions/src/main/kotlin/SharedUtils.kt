@@ -93,21 +93,7 @@ fun Project.configureBaseArchive(variant: String) {
 }
 
 private fun Project.getFullModVersion(variant: String): String {
-    // 1. Read your background build tracking counter
-    val propsFile = file("build.properties")
-    val currentBuildNumber = if (propsFile.exists()) {
-        val props = java.util.Properties()
-        propsFile.inputStream().use { props.load(it) }
-        props.getProperty("buildNumber", "0").toLong()
-    } else {
-        0L
-    }
-    val stageSuffix = when (releaseType) {
-        ReleaseType.RELEASE -> ""
-        ReleaseType.BETA    -> "-beta.build-$currentBuildNumber"
-        ReleaseType.ALPHA   -> "-alpha.build-$currentBuildNumber"
-    }
-    return "$modVersion-mc$mcVersion-$variant$stageSuffix"
+    return "$modVersion-mc$mcVersion-$variant"
 }
 
 enum class ModLoader(val conventionalName: String) {

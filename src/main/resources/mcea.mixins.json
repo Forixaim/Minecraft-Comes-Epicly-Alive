@@ -5,13 +5,14 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "ExtendedMeleeAttackTaskMixin",
-    "MixinBowTask",
     "MixinGreetPlayerTask",
     "MixinLivingEntityPatch",
     "MixinVillagerMCA",
     "MixinVillagerTasks"
   ],
   "client": [
+    "FaceLayerInvoker",
+    "VillagerLayerInvoker"
   ],
   "injectors": {
     "defaultRequire": 1
